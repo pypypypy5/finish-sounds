@@ -1,0 +1,12 @@
+[2026-02-16 00:05:54] selected file: /mnt/c/Users/shj/.codex/finish-sounds/hello_MGojBKO.mp3
+[2026-02-16 00:05:55] available players: /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+[2026-02-16 00:05:55] player /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe exited with 1
+[2026-02-16 00:05:55] all players failed; bell fallback
+[2026-02-16 00:06:00] selected file: /mnt/c/Users/shj/.codex/finish-sounds/hello_MGojBKO.mp3
+[2026-02-16 00:06:00] available players: /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+[2026-02-16 00:06:00] player /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe exited with 1
+[2026-02-16 00:06:00] all players failed; bell fallback
+[2026-02-16 00:13:47] selected file: /mnt/c/Users/shj/.codex/finish-sounds/hello_MGojBKO.mp3
+[2026-02-16 00:13:47] available players: paplay, ffplay, /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+[2026-02-16 00:13:52] player paplay exited with 0
+[2026-02-16 00:13:52] playback success
