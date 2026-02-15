@@ -10,3 +10,17 @@
 [2026-02-16 00:13:47] available players: paplay, ffplay, /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
 [2026-02-16 00:13:52] player paplay exited with 0
 [2026-02-16 00:13:52] playback success
+[2026-02-16 00:20:58] invoked (self_test=False)
+[2026-02-16 00:20:58] selected file: /mnt/c/Users/shj/.codex/finish-sounds/hello_MGojBKO.mp3
+[2026-02-16 00:20:58] available players: paplay, ffplay, /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+[2026-02-16 00:21:03] player paplay exited with 0
+[2026-02-16 00:21:03] playback success
+[2026-02-16 00:35:27] invoked (self_test=True)
+[2026-02-16 00:35:27] selected file: /mnt/c/Users/shj/.codex/finish-sounds/sounds/hello_MGojBKO.mp3
+[2026-02-16 00:35:27] available players: paplay, ffplay, /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+[2026-02-16 00:35:27] player paplay exited with 1
+[2026-02-16 00:36:18] invoked (self_test=False)
+[2026-02-16 00:36:18] selected file: /mnt/c/Users/shj/.codex/finish-sounds/sounds/hello_MGojBKO.mp3
+[2026-02-16 00:36:19] available players: paplay, ffplay, /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+[2026-02-16 00:36:23] player paplay exited with 0
+[2026-02-16 00:36:23] playback success

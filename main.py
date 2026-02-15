@@ -35,6 +35,7 @@ if len(sys.argv) < 2:
     sys.exit(0)
 
 self_test = sys.argv[1] == "--self-test"
+persist(f"invoked (self_test={self_test})")
 
 try:
     event = {"type": "agent-turn-complete"} if self_test else json.loads(sys.argv[1])
@@ -48,8 +49,8 @@ if event.get("type") != "agent-turn-complete":
     persist(f"ignored event type: {event.get('type')}")
     sys.exit(0)
 
-# 훅 파일 기준 디렉토리의 오디오 파일 목록
-sounds_dir = BASE_DIR
+# 훅 파일 기준 sounds 디렉토리의 오디오 파일 목록
+sounds_dir = os.path.join(BASE_DIR, "sounds")
 if os.path.exists(sounds_dir):
     audio_files = glob.glob(os.path.join(sounds_dir, "*.wav")) + glob.glob(os.path.join(sounds_dir, "*.mp3"))
     if audio_files:
